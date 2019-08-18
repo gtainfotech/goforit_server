@@ -1,0 +1,26 @@
+{
+  "name": "goforit_server",
+  "version": "0.0.1",
+  "main": "app.js",
+  "repository": "https://github.com/gtainfotech/goforit_server.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node ./app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-cassandra": "^2.3.0",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
